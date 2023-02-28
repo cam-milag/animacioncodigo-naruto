@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(../images/a563881584907e24453ed6af0f3d7cf0cd8d73f3v2_hq.jpg);
+    background-size:cover;
+}
+
+img {
+    position: relative;
+    animation-name: naruto;
+    animation: naruto 2s infinite;
+
+}
+
+@keyframes naruto {
+    from { top: 500px; }
+    to { left: 80rem; top: 500px; }
+}
+
+
